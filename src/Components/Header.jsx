@@ -16,11 +16,12 @@ const Header = () => {
     <header className="bg-[#11071F] text-white py-4">
       <nav className="container mx-auto flex items-center justify-between px-4 border-b-4">
         {/* Logo */}
-        <img
-          className="w-[50px] lg:w-[80px] h-auto"
+        {/* <img
+          className="w-[50px] lg:w-[180px] h-auto"
           src="logo.png (2).png"
           alt="logo"
-        />
+        /> */}
+        <h1 className="bg-blue-500 px-2 rounded-sm ">Sazib</h1>
 
         {/* Navigation Links */}
         <ul className="hidden lg:flex gap-10">
