@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <header className="bg-[#11071F] text-white py-4">
-      <nav className="container mx-auto flex items-center justify-between px-4">
+      <nav className="container mx-auto flex items-center justify-between px-4 border-b-4">
         {/* Logo */}
         <img
           className="w-[150px] lg:w-[180px]"
