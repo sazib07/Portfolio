@@ -2,7 +2,10 @@ import React from 'react'
 
 const Intro = () => {
   return (
-    <div>Intro</div>
+    <div>
+      fbsfhuf
+      {/* <img src="logo.png.png" alt="" /> */}
+    </div>
   )
 }
 

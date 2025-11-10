@@ -17,8 +17,8 @@ const Header = () => {
       <nav className="container mx-auto flex items-center justify-between px-4 border-b-4">
         {/* Logo */}
         <img
-          className="w-[150px] lg:w-[180px]"
-          src="images/Logo.png"
+          className="w-[50px] lg:w-[80px] h-auto"
+          src="logo.png (2).png"
           alt="logo"
         />
 
