@@ -5,7 +5,7 @@ const Intro = () => {
   return (
     <Container>
 
-    <div className="flex">
+    <div className="flex lg:flex-row justify-between ">
 <div className="col col-lg-6">
 
       {/* <div className="c" */}
@@ -17,9 +17,9 @@ I make meaningful and delightful digital products that create an equilibrium
 between user needs and business goals.</p>
 </div>
     
-<div className="col col-lg-6 ml-[50px]">
+<div className="col col-lg-6 items-center ml-[20px]">
     <img 
-    className="h-40 w-80 "
+    className="h-40 w-80 ml-[20px]"
      src="logo.png.png" alt="" />
 
 </div>
