@@ -1,8 +1,12 @@
 import React from 'react'
+import Container from './container'
 
 const Experience = () => {
   return (
-    <div>Work Experience</div>
+    <Container>
+      <div>Work Experience</div>
+
+    </Container>
   )
 }
 

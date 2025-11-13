@@ -1,7 +1,10 @@
 import React from 'react'
+import Container from './container'
 
 const Intro = () => {
   return (
+    <Container>
+
     <div className="flex">
 <div className="col col-lg-6">
 
@@ -14,13 +17,15 @@ I make meaningful and delightful digital products that create an equilibrium
 between user needs and business goals.</p>
 </div>
     
-<div className="col col-lg-6">
+<div className="col col-lg-6 ml-[50px]">
     <img 
-    className="h-40 w-80"
+    className="h-40 w-80 "
      src="logo.png.png" alt="" />
 
 </div>
     </div>
+
+    </Container>
   )
 }
 

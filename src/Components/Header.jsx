@@ -2,6 +2,7 @@ import React from "react";
 import { LiaSearchDollarSolid } from "react-icons/lia";
 import { RiDeleteBinLine } from "react-icons/ri";
 import { FaUserTie, FaBarsStaggered } from "react-icons/fa6";
+import Container from "./container";
 
 const Header = () => {
   const navItems = [
@@ -13,6 +14,8 @@ const Header = () => {
   ];
 
   return (
+    <Container>
+
     <header className="bg-[#11071F] text-white py-4">
       <nav className="container mx-auto flex items-center justify-between px-4 border-b-4">
         {/* Logo */}
@@ -52,6 +55,7 @@ const Header = () => {
         </div>
       </nav>
     </header>
+    </Container>
   );
 };
 
