@@ -12,6 +12,8 @@ const Intro = () => {
 I make meaningful and delightful digital products that create an equilibrium
 between user needs and business goals.</p>
     
+
+    <img src="logo.png.png" alt="" />
     </div>
   )
 }
