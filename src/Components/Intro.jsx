@@ -17,9 +17,9 @@ I make meaningful and delightful digital products that create an equilibrium
 between user needs and business goals.</p>
 </div>
     
-<div className="col col-lg-6 items-center ml-[20px]">
+<div className="col col-lg-6 items-center">
     <img 
-    className="h-40 w-80 ml-[20px]"
+    className="h-100 mr-[40px] "
      src="logo.png.png" alt="" />
 
 </div>
