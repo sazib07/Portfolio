@@ -2,7 +2,7 @@ import React from 'react'
 
 const Intro = () => {
   return (
-    <div>
+    <div className="flex">
 <div className="div">
 
       {/* <div className="c" */}
@@ -14,8 +14,12 @@ I make meaningful and delightful digital products that create an equilibrium
 between user needs and business goals.</p>
 </div>
     
+<div className="div">
+    <img 
+    className="h-20 w-40"
+     src="logo.png.png" alt="" />
 
-    <img src="logo.png.png" alt="" />
+</div>
     </div>
   )
 }
