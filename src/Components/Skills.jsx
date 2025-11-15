@@ -25,7 +25,8 @@ import {
   SiGatsby,
 } from "react-icons/si";
 
-const skills = [
+const skills = ()=>{
+ [
   { name: "JavaScript", icon: <SiJavascript size={42} /> },
   { name: "React.js", icon: <SiReact size={42} /> },
   { name: "TypeScript", icon: <SiTypescript size={42} /> },
@@ -48,9 +49,7 @@ const skills = [
   { name: "Jira", icon: <SiJira size={42} /> },
   { name: "Gatsby", icon: <SiGatsby size={42} /> },
 ];
-
-export default function Skills() {
-  return (
+ return (
     <div className="max-w-[1300px] mx-auto px-5 py-16 text-white bg-[#0d1117] rounded-2xl">
       <h2 className="text-4xl font-extrabold mb-12 text-center">Skills & Abilities</h2>
 
@@ -70,4 +69,12 @@ export default function Skills() {
       </div>
     </div>
   );
+
 }
+
+    
+    
+
+ 
+ 
+export default skills;
