@@ -19,8 +19,8 @@ between user needs and business goals.</p>
     
 <div className="col col-lg-6 items-center">
     <img 
-    className="h-100 mr-[40px] "
-     src="logo.png.png" alt="" />
+    className="h-100 mr-[40px] rounded-[100px] "
+     src="portfolioimg.png.jpg" alt="" />
 
 </div>
     </div>

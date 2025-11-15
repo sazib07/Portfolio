@@ -12,6 +12,8 @@ function App() {
     <div className="min-h-screen bg-[#11071F] text-white">
       <Header />
       <Intro/>
+
+      
       <Experience/>
     </div>
   );
