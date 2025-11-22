@@ -1,6 +1,7 @@
 import React from "react";
 import { FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";
 import { SiMongodb, SiExpress, SiJavascript, SiTailwindcss } from "react-icons/si";
+import { RiNextjsFill, RiBootstrapFill } from "react-icons/ri";
 
 export default function Skills() {
   const skills = [
@@ -11,6 +12,8 @@ export default function Skills() {
     { name: "MongoDB", icon: <SiMongodb size={30} /> },
     { name: "REST API", icon: <FaDatabase size={30} /> },
     { name: "TailwindCSS", icon: <SiTailwindcss size={30} /> },
+    {name : "Next js" ,icon:<RiNextjsFill size={30}/>},
+    {name: "Bootstrap",icon:<RiBootstrapFill size={30}/>},
   ];
 
   return (
@@ -21,9 +24,9 @@ export default function Skills() {
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="flex flex-col items-center p-4 border rounded-2xl shadow-sm hover:shadow-md transition duration-200 bg-white"
+            className="flex flex-col items-center p-4 border rounded-2xl shadow-sm hover:shadow-md transition duration-200 "
           >
-            <div className="mb-2">{skill.icon}</div>
+            <div className="mb-2 ">{skill.icon}</div>
             <p className="font-medium text-gray-700">{skill.name}</p>
           </div>
         ))}
