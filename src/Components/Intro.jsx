@@ -10,7 +10,7 @@ const Intro = () => {
 
       {/* <div className="c" */}
    <h1 className="text-lg text-[24px] text-teal-500">Hey,This is Sazib Hossain.</h1>
-   <h2 className="text-lg text-[40px] ">I'm MERN Stack Developer</h2>
+   <h2 className="text-lg text-[40px] ">I'm MERN Stack<br/>Developer</h2>
      
      <p className="w-[600px]">A self-taught UI/UX designer, functioning in the industry for 3+ years now.
 I make meaningful and delightful digital products that create an equilibrium
