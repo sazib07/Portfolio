@@ -22,7 +22,7 @@ export default function Experience() {
             key={index}
             className="p-5 border rounded-2xl shadow-sm hover:shadow-md transition duration-200 bg-white"
           >
-            <h3 className="text-xl font-semibold">{exp.title}</h3>
+            <h3 className="text-xl text-gray-500 font-semibold">{exp.title}</h3>
             <p className="text-sm text-gray-600">{exp.place}</p>
             <p className="text-sm text-gray-500 mb-2">{exp.duration}</p>
             <p className="text-gray-700 leading-relaxed">{exp.description}</p>
