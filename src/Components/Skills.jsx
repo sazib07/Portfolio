@@ -2,6 +2,7 @@ import React from "react";
 import { FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";
 import { SiMongodb, SiExpress, SiJavascript, SiTailwindcss } from "react-icons/si";
 import { RiNextjsFill, RiBootstrapFill } from "react-icons/ri";
+import Container from "./container";
 
 export default function Skills() {
   const skills = [
@@ -17,7 +18,9 @@ export default function Skills() {
   ];
 
   return (
-    <div className="w-full max-w-3xl mx-auto p-6">
+    <Container>
+
+    <div className="w-full  mx-auto p-6">
       <h2 className="text-3xl font-bold text-center mb-6">My Skills</h2>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
@@ -32,5 +35,7 @@ export default function Skills() {
         ))}
       </div>
     </div>
+    </Container>
+ 
   );
 }
