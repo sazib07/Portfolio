@@ -30,11 +30,11 @@ export default function Skills() {
     <div className="w-full mx-auto p-6">
       <h2 className="text-3xl font-bold text-center mb-6">My Skills & Abilities</h2>
 
-      <div className="grid grid-cols-4 sm:grid-cols-6 gap-6">
+      <div className="grid grid-cols-4 sm:grid-cols-6 gap-6 ">
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="flex flex-col items-center p-4 border rounded-2xl shadow-sm hover:shadow-md transition duration-200 "
+            className="flex flex-col items-center p-4 border rounded-2xl shadow-sm hover:bg-gray-500 hover:opacity-90 hover:shadow-md transition duration-200 "
           >
             <div className="mb-2 ">{skill.icon}</div>
             <p className="font-medium text-gray-600">{skill.name}</p>
