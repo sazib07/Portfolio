@@ -4,6 +4,7 @@ import { RiDeleteBinLine } from "react-icons/ri";
 import { FaUserTie, FaBarsStaggered } from "react-icons/fa6";
 import Container from "./container";
 
+
 const Header = () => {
   const navItems = [
     { name: "Home", href: "#" },
