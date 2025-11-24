@@ -10,6 +10,13 @@ export default function Experience() {
       description:
         "Learning full-stack web development using MongoDB, Express.js, React, and Node.js. Building real-world UI components, APIs, and dynamic web apps.",
     },
+     {
+      title: "Software Intern",
+      place: "XYZ Company",
+      duration: "2024 - Present",
+      description:
+        "Learning full-stack web development using MongoDB, Express.js, React, and Node.js. Building real-world UI components, APIs, and dynamic web apps.",
+    },
   ];
 
   return (
