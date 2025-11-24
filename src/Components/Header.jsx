@@ -41,19 +41,7 @@ const Header = () => {
           ))}
         </ul>
 
-        {/* Icons */}
-        <div className="flex items-center gap-5 lg:gap-8">
-          <LiaSearchDollarSolid className="text-[28px] lg:text-[32px]" />
-
-          <div className="relative after:content-[''] after:absolute after:top-[-8px] after:right-[-6px] after:w-[12px] after:h-[12px] after:bg-red-500 after:rounded-full">
-            <RiDeleteBinLine className="text-[28px] lg:text-[32px]" />
-          </div>
-
-          <FaUserTie className="text-[28px] lg:text-[32px]" />
-
-          {/* Mobile Menu */}
-          <FaBarsStaggered className="lg:hidden text-[26px]" />
-        </div>
+    
       </nav>
     </header>
     </Container>
