@@ -17,24 +17,24 @@ between user needs and business goals.</p>
 
 
 </div>
-
 <div className="flex justify-center items-center p-10">
-  <div className="relative group">
-    
-    {/* Gradient Border */}
-    <div className="absolute -inset-1 bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 rounded-3xl blur-lg opacity-60 group-hover:opacity-100 transition"></div>
+  <div className="relative w-72 h-80 md:w-80 md:h-[360px]">
 
-    {/* Image Container */}
-    <div className="relative bg-white/10 backdrop-blur-xl rounded-3xl p-2 shadow-2xl">
-      <img 
-        src="portfolioimg.png.jpg"
-        alt="Portfolio"
-        className="w-56 h-56 md:w-72 md:h-72 object-cover rounded-2xl shadow-xl transition-all duration-500 group-hover:scale-105"
-      />
-    </div>
+    {/* Hexagon Glow Background */}
+    <div className="absolute inset-0 bg-cyan-500 opacity-80 blur-2xl rounded-[40px]"></div>
 
+    {/* Hexagon Shape */}
+    <div className="absolute inset-0 clip-hexagon bg-cyan-600/40 backdrop-blur-xl rounded-[40px]"></div>
+
+    {/* IMAGE */}
+    <img 
+      src="/portfolioimg.png.jpg" 
+      alt="Profile" 
+      className="absolute inset-0 w-full h-full object-cover clip-hexagon rounded-[40px] shadow-2xl"
+    />
   </div>
 </div>
+
 
 
 
