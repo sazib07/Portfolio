@@ -25,10 +25,19 @@ const Header = () => {
           src="logo.png (2).png"
           alt="logo"
         /> */}
-       <h1 
-  class="text-4xl font-extrabold text-cyan-300 drop-shadow-[0_0_15px_#06b6d4] animate-pulse">
-  Sazib
+<h1 class="text-4xl font-extrabold flex gap-1">
+  <span class="animate-bounce [animation-delay:.0s] bg-gradient-to-r from-red-400 via-purple-400 to-blue-400 text-transparent bg-clip-text">S</span>
+  <span class="animate-bounce [animation-delay:.1s] bg-gradient-to-r from-blue-400 via-pink-400 to-purple-400 text-transparent bg-clip-text">a</span>
+  <span class="animate-bounce [animation-delay:.2s] bg-gradient-to-r from-blue-400 via-teal-400 to-cyan-400 text-transparent bg-clip-text">z</span>
+  <span class="animate-bounce [animation-delay:.3s] bg-gradient-to-r from-pink-400 via-purple-400 to-teal-400 text-transparent bg-clip-text">i</span>
+  <span class="animate-bounce [animation-delay:.4s] bg-gradient-to-r from-yellow-400 via-pink-400 to-purple-400 text-transparent bg-clip-text">b</span>
+
 </h1>
+
+
+
+
+
 
 
         {/* Navigation Links */}
