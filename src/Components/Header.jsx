@@ -25,7 +25,11 @@ const Header = () => {
           src="logo.png (2).png"
           alt="logo"
         /> */}
-        <h1 className="bg-blue-500 px-2 rounded-sm ">Sazib</h1>
+       <h1 
+  class="text-4xl font-extrabold text-cyan-300 drop-shadow-[0_0_15px_#06b6d4] animate-pulse">
+  Sazib
+</h1>
+
 
         {/* Navigation Links */}
         <ul className="hidden lg:flex gap-10">
