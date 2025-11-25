@@ -19,13 +19,8 @@ const Header = () => {
 
     <header className="bg-[#11071F] text-white py-4">
       <nav className="container mx-auto flex items-center justify-between px-4 border-b-4">
-        {/* Logo */}
-        {/* <img
-          className="w-[50px] lg:w-[180px] h-auto"
-          src="logo.png (2).png"
-          alt="logo"
-        /> */}
-<h1 class="text-4xl font-extrabold flex gap-1">
+      
+<h1 class="text-4xl font-extrabold flex gap-1 animate-pulse  ">
   <span class="animate-bounce [animation-delay:.0s] bg-gradient-to-r from-red-400 via-purple-400 to-blue-400 text-transparent bg-clip-text">S</span>
   <span class="animate-bounce [animation-delay:.1s] bg-gradient-to-r from-blue-400 via-pink-400 to-purple-400 text-transparent bg-clip-text">a</span>
   <span class="animate-bounce [animation-delay:.2s] bg-gradient-to-r from-blue-400 via-teal-400 to-cyan-400 text-transparent bg-clip-text">z</span>
@@ -34,13 +29,6 @@ const Header = () => {
 
 </h1>
 
-
-
-
-
-
-
-        {/* Navigation Links */}
         <ul className="hidden lg:flex gap-10">
           {navItems.map((item, index) => (
             <li key={index}>
