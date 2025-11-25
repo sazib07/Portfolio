@@ -9,7 +9,7 @@ const Intro = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentWord((prev) => (prev + 1) % words.length);
-    }, 2000); // Change word every 2 seconds
+    }, 2000);
     return () => clearInterval(interval);
   }, []);
 
@@ -22,7 +22,7 @@ const Intro = () => {
    <h1 className=" text-[32px] mt-6  text-blue-500">Hey,This is Sazib Hossain.</h1>
      <h2 className="text-[64px] md:text-[72px] font-bold mt-4">
         I'm{" "}
-        <span className="relative inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-yellow-400 animate-gradient-text">
+        <span className="relative animate-pulse duration-700 delay-700 inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-yellow-400 animate-gradient-text">
           {words[currentWord]}
         </span>
         <br />
