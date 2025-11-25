@@ -17,8 +17,9 @@ between user needs and business goals.</p>
 
 
 </div>
-<div className="flex justify-center items-center p-10">
-  <div className="relative w-72 h-80 md:w-80 md:h-[360px]">
+
+<div className="flex-5 p-10">
+  <div className=" relative mx-auto  w-72 h-80 md:w-80 md:h-[360px]">
 
     {/* Hexagon Glow Background */}
     <div className="absolute inset-0 bg-cyan-500 opacity-80 blur-2xl rounded-[40px]"></div>
@@ -28,7 +29,7 @@ between user needs and business goals.</p>
 
     {/* IMAGE */}
     <img 
-      src="/portfolioimg.png.jpg" 
+      src="/portfolioimage.png" 
       alt="Profile" 
       className="absolute inset-0 w-full h-full object-cover clip-hexagon rounded-[40px] shadow-2xl"
     />
