@@ -8,7 +8,7 @@ const Intro = () => {
     <div className="flex justify-between ">
 
 <div className="flex-7">
-   <h1 className=" text-[34px] mt-6  text-blue-500">Hey,This is Sazib Hossain.</h1>
+   <h1 className=" text-[32px] mt-6  text-blue-500">Hey,This is Sazib Hossain.</h1>
    <h2 className="text-[64px] ">I'm MERN Stack<br/>Developer</h2>
      
      <p className="w-[600px]">A self-taught UI/UX designer, functioning in the industry for 3+ years now.
