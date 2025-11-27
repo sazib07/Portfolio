@@ -9,6 +9,7 @@ import Footer from './Components/Footer'
 import About from './Components/About'
 
 
+
 function App() {
   return (
     <div className="min-h-screen bg-[#11071F] text-white">
