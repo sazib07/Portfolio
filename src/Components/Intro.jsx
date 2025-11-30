@@ -19,8 +19,8 @@ const Intro = () => {
     <div className="flex justify-between ">
 
 <div className="flex-7">
-   <h1 className=" text-[32px] mt-6 bg-clip-text text-transparent bg-gradient-to-r from-teal-400 via-cyan-400 to-blue-400">Hey,This is Sazib Hossain.</h1>
-     <h2 className="text-[64px] text-teal-100 md:text-[72px] font-bold mt-4">
+   <h1 className="ml-[10px] text-[32px] mt-6 bg-clip-text text-transparent bg-gradient-to-r from-teal-400 via-cyan-400 to-blue-400">Hey,This is Sazib Hossain.</h1>
+     <h2 className="ml-[10px] text-[64px] text-teal-100 md:text-[72px] font-bold mt-4">
         I'm{" "}
         <span className="relative animate-pulse duration-700 delay-700 inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-yellow-400 animate-gradient-text">
           {words[currentWord]}
