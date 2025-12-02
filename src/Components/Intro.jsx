@@ -9,7 +9,7 @@ const Intro = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentWord((prev) => (prev + 1) % words.length);
-    }, 1000);
+    },3000);
     return () => clearInterval(interval);
   }, []);
 
@@ -32,7 +32,7 @@ const Intro = () => {
 </div>
 
 <div className="flex-5 p-10">
-  <div className=" relative mx-auto  w-72 h-80 md:w-80 md:h-[360px]">
+  <div className=" relative mx-auto w-72 h-80 md:w-80 md:h-[360px]">
 
     {/* Hexagon Glow Background */}
     <div className="absolute inset-0 bg-cyan-500 opacity-80 blur-2xl rounded-[40px]"></div>
