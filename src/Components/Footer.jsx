@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <Container>
 <footer className="h-[200px] flex flex-3 gap-10 footer sm:footer-horizontal bg-base-300 text-base-content p-10">
-  <nav>
-    <h6 className="font-bold">Services</h6>
+  <nav className="">
+    <h6 className="font-bold ">Services</h6>
     <a className="link grid-flow-row link-hover">Branding</a>
     <br/>
     <a className="link link-hover">Design</a>
@@ -16,7 +16,7 @@ const Footer = () => {
     <a className="link link-hover">Advertisement</a>
   </nav>
 
-  <nav>
+  <nav className="flex-row">
     <h6 className="footer-title">Company</h6>
     <a className="link link-hover">About us</a>
     <a className="link link-hover">Contact</a>
