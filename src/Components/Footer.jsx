@@ -8,8 +8,11 @@ const Footer = () => {
   <nav>
     <h6 className="font-bold">Services</h6>
     <a className="link grid-flow-row link-hover">Branding</a>
+    <br/>
     <a className="link link-hover">Design</a>
+    <br/>
     <a className="link link-hover">Marketing</a>
+    <br/>
     <a className="link link-hover">Advertisement</a>
   </nav>
 
