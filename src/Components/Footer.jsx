@@ -10,7 +10,7 @@ const Footer = () => {
         {/* BRAND / ABOUT */}
         <div>
           <h3 className="text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-blue-500">
-            DevSaz
+            Sazib Hossain
           </h3>
           <p className="mt-4 text-gray-400 leading-relaxed">
             Building modern, responsive, and user-friendly web applications with clean code and creativity.
@@ -52,7 +52,7 @@ const Footer = () => {
 
           {/* SOCIAL ICONS */}
           <div className="flex gap-4 mt-6">
-            <a href="#" className="text-2xl text-gray-400 hover:text-teal-300 transition">
+            <a href="https://www.facebook.com/share/1DofhnNLDW/" className="text-2xl text-gray-400 hover:text-teal-300 transition">
               <FaFacebook />
             </a>
             <a href="#" className="text-2xl text-gray-400 hover:text-teal-300 transition">
