@@ -46,7 +46,7 @@ const Footer = () => {
           <ul className="space-y-3 text-gray-400">
             <li className="flex items-center gap-3">
               <FaEnvelope className="text-teal-300 text-xl" />
-              <span>sazib.webdev@gmail.com</span>
+              <span>sazibmd93@gmail.com</span>
             </li>
           </ul>
 
@@ -69,7 +69,7 @@ const Footer = () => {
       <div className="border-t border-white/10 mt-12 pt-6 text-center text-gray-500">
         <p>
           © {new Date().getFullYear()}  
-          <span className="text-teal-300 font-medium"> DevSaz</span>.  
+          <span className="text-teal-300 font-medium">Sazib</span>.  
           All rights reserved.
         </p>
       </div>
