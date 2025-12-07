@@ -55,7 +55,7 @@ const Footer = () => {
             <a href="https://www.facebook.com/share/1DofhnNLDW/" className="text-2xl text-gray-400 hover:text-teal-300 transition">
               <FaFacebook />
             </a>
-            <a href="#" className="text-2xl text-gray-400 hover:text-teal-300 transition">
+            <a href="https://github.com/sazib07" className="text-2xl text-gray-400 hover:text-teal-300 transition">
               <FaGithub />
             </a>
             <a href="https://www.linkedin.com/in/sazib-hossain-b86289310" className="text-2xl text-gray-400 hover:text-teal-300 transition">
