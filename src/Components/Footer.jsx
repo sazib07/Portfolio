@@ -68,7 +68,7 @@ const Footer = () => {
       {/* DIVIDER */}
       <div className="border-t border-white/10 mt-12 pt-6 text-center text-gray-500">
         <p>
-          © {new Date().getFullYear()}  
+          © {new Date().getFullYear()},
           <span className="text-teal-300 font-medium">Sazib</span>.  
           All rights reserved.
         </p>
