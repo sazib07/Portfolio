@@ -5,6 +5,8 @@ import { FaUserTie, FaBarsStaggered } from "react-icons/fa6";
 import Container from "./container";
 
 
+
+
 const Header = () => {
   const navItems = [
     { name: "Home", href: "#" },
@@ -31,12 +33,15 @@ const Header = () => {
         <ul className="hidden lg:flex gap-10">
           {navItems.map((item, index) => (
             <li key={index}>
-              <a
+
+        
+              <Link
                 href={item.href}
                 className="hover:text-purple-400 transition duration-300"
               >
                 {item.name}
-              </a>
+              </Link>
+        
             </li>
           ))}
         </ul>
