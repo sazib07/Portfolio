@@ -8,10 +8,10 @@ import Container from "./container";
 const Header = () => {
   const navItems = [
     { name: "Home", href: "#" },
-    { name: "About Us", href: "#"  },
+    { name: "About Us", href: "/About"  },
     { name: "Products", href: "#" },
     { name: "FAQ’s", href: "#" },
-    { name: "Contact Us", href: "#" },
+    { name: "Contact Us", href: "/Contact" },
   ];
 
   return (
