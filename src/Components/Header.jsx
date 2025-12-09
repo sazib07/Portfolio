@@ -48,8 +48,8 @@ const Header = () => {
         </ul>
 
 <a 
-  href="/" 
-  download="Sazib-Hossain-Resume.pdf"
+  href="/resume.png" 
+  download="resume.png"
 >
   <button className="px-12 py-2 bg-blue-500 rounded-lg font-mono text-purple-300">
     Resume
