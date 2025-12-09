@@ -3,6 +3,7 @@ import { LiaSearchDollarSolid } from "react-icons/lia";
 import { RiDeleteBinLine } from "react-icons/ri";
 import { FaUserTie, FaBarsStaggered } from "react-icons/fa6";
 import Container from "./container";
+import { Link } from "react-router-dom";
 
 
 
@@ -35,12 +36,12 @@ const Header = () => {
             <li key={index}>
 
         
-              <Link
+              <a
                 href={item.href}
                 className="hover:text-purple-400 transition duration-300"
               >
                 {item.name}
-              </Link>
+              </a>
         
             </li>
           ))}
