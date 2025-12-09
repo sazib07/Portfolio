@@ -48,7 +48,7 @@ const Header = () => {
         </ul>
 
 <a 
-  href="/Sazib_Hossain_resume.pdf" 
+  href="/" 
   download="Sazib-Hossain-Resume.pdf"
 >
   <button className="px-12 py-2 bg-blue-500 rounded-lg font-mono text-purple-300">
