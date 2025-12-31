@@ -4,6 +4,7 @@ import { RiDeleteBinLine } from "react-icons/ri";
 import { FaUserTie, FaBarsStaggered } from "react-icons/fa6";
 import Container from "./container";
 import { Link } from "react-router-dom";
+import { FaDownload } from "react-icons/fa6";
 
 
 
@@ -46,14 +47,29 @@ const Header = () => {
           ))}
         </ul>
 
-<a 
-  href="" 
-  download="resume.png"
->
-  <button className="px-12 py-2 bg-blue-500 rounded-lg font-mono text-purple-300">
-    Resume
-  </button>
-</a>
+<a
+        href="/resume.png"
+        download
+        className="inline-flex items-center gap-2 px-12 py-3 
+        bg-gradient-to-r from-blue-500 to-indigo-600 
+        text-purple-200 font-mono rounded-lg 
+        shadow-lg shadow-indigo-500/40
+        hover:scale-105 hover:shadow-indigo-500/70
+        transition-all duration-300"
+      >
+        <FaDownload/>
+        Resume
+      </a>
+
+      {/* Tooltip */}
+      <span
+        className="absolute -top-12 left-1/2 -translate-x-1/2
+        whitespace-nowrap rounded-md bg-black px-3 py-1 text-sm
+        text-white opacity-0 group-hover:opacity-100
+        transition duration-300"
+      >
+        Download Resume
+      </span>
 
       </nav>
     </header>
