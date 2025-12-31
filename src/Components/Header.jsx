@@ -10,12 +10,11 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   const navItems = [
-    { name: "Home", href: "#" },
-    { name: "About Us", href: "/About"  },
-    { name: "Products", href: "#" },
-    { name: "FAQ’s", href: "#" },
-    { name: "Contact Us", href: "/Contact" },
-  ];
+  { name: "Home", href: "#home" },
+  { name: "About Me", href: "#about" },
+  { name: "Projects", href: "#projects" },
+  { name: "Contact Me", href: "#Contact" },
+];
 
   return (
     <Container>

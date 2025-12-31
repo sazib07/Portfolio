@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div>
       
-    <section class="min-h-screen bg-gray-50 flex items-center justify-center px-6 py-12">
+    <section id="about" class="min-h-screen bg-gray-50 flex items-center justify-center px-6 py-12">
   <div class="max-w-5xl mx-auto text-center">
     
     <div class="w-36 h-36 mx-auto mb-6 rounded-full overflow-hidden shadow-lg border-4 border-indigo-500">
@@ -43,7 +43,9 @@ const About = () => {
 
     {/* <!-- CTA Buttons --> */}
     <div class="mt-10 flex justify-center gap-4">
-    <a href="#contact" class="flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700">
+    <a 
+    href="#Contact"
+     class="flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700">
   📩 Contact Me
 </a>
 
