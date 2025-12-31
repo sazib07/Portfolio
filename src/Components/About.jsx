@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const About = () => {
   return (
     <div>
@@ -42,12 +43,16 @@ const About = () => {
 
     {/* <!-- CTA Buttons --> */}
     <div class="mt-10 flex justify-center gap-4">
-      <a href="#contact" class="px-6 py-3 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700">
-        Contact Me
-      </a>
-      <a href="/projects" class="px-6 py-3 bg-gray-200 text-gray-800 rounded-lg shadow hover:bg-gray-300">
-        View Projects
-      </a>
+    <a href="#contact" class="flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700">
+  📩 Contact Me
+</a>
+
+<a
+  href="#projects"
+  class="px-6 py-3 bg-gray-200 text-gray-800 rounded-lg shadow hover:bg-gray-300 transition-all"
+>
+  View Projects
+</a>
     </div>
   </div>
 </section>
