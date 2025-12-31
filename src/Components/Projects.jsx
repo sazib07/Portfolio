@@ -1,11 +1,22 @@
-import React from 'react'
+import projects from "../data/projects";
+import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <div>Projects
-        
-    </div>
-  )
-}              
+    <section id="projects" className="py-20 bg-black">
+      <div className="max-w-6xl mx-auto px-5">
+        <h2 className="text-4xl font-bold text-center text-white mb-12">
+          My Projects
+        </h2>
 
-export default Projects
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {projects.map(project => (
+            <ProjectCard key={project.id} project={project} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Projects;
