@@ -13,3 +13,46 @@ body {
 
 
 /* font-gupter */
+
+.experience {
+  max-width: 800px;
+  margin: 40px auto;
+  font-family: system-ui, sans-serif;
+}
+
+.exp-card {
+  padding: 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.exp-card h3 {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.exp-card h3 span {
+  font-weight: 400;
+  color: #555;
+}
+
+.meta {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 12px;
+}
+
+.exp-card ul {
+  padding-left: 18px;
+  margin-bottom: 10px;
+}
+
+.exp-card li {
+  font-size: 15px;
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
+.tech {
+  font-size: 14px;
+  color: #444;
+}
