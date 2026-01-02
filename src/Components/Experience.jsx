@@ -20,14 +20,14 @@ export default function Experience() {
   ];
 
   return (
-    <div className="w-full max-w-3xl mx-auto p-6 grid gap-6">
+    <div className="w-full max-w-3xl mx-auto p-6 grid gap-6 ">
       <h2 className="text-3xl font-bold text-center mb-4">My Working Experience</h2>
 
       <div className="grid gap-4">
         {experiences.map((exp, index) => (
           <div
             key={index}
-            className="p-5 border rounded-2xl shadow-sm hover:shadow-md transition duration-200 bg-white"
+            className="p-5 border rounded-2xl shadow-sm hover:shadow-md transition duration-200 "
           >
             <h3 className="text-xl text-gray-500 font-semibold">{exp.title}</h3>
             <p className="text-sm text-gray-600">{exp.place}</p>
