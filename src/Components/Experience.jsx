@@ -3,17 +3,11 @@ import React from "react";
 // Experience Component based on your courses: Sociology + MERN Stack Development
 export default function Experience() {
   const experiences = [
-    {
-      title: "MERN Stack Learner",
-      place: "Self-learning / Online Resources",
-      duration: "2024 - Present",
-      description:
-        "Learning full-stack web development using MongoDB, Express.js, React, and Node.js. Building real-world UI components, APIs, and dynamic web apps.",
-    },
+   
      {
       title: "Software Intern",
-      place: "XYZ Company",
-      duration: "2024 - Present",
+      place: "Creative IT Institute",
+      duration: "2025 - Present",
       description:
         "Learning full-stack web development using MongoDB, Express.js, React, and Node.js. Building real-world UI components, APIs, and dynamic web apps.",
     },
