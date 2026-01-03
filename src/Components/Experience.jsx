@@ -27,7 +27,7 @@ export default function Experience() {
         {experiences.map((exp, index) => (
           <div
             key={index}
-            className="p-5 border rounded-2xl shadow-sm hover:shadow-md transition duration-200 "
+            className="p-5 rounded-2xl shadow-sm hover:shadow-md transition duration-200 "
           >
             <h3 className="text-xl text-gray-500 font-semibold">{exp.title}</h3>
             <p className="text-sm text-gray-600">{exp.place}</p>
