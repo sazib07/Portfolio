@@ -20,7 +20,7 @@ export default function Experience() {
   ];
 
   return (
-    <div className="w-full max-w-3xl mx-auto p-6 grid gap-6 ">
+    <div className="w-full mx-auto p-6 grid gap-6 ">
       <h2 className="text-3xl font-bold text-center mb-4">My Working Experience</h2>
 
       <div className="grid gap-4">
