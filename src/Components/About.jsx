@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div>
       
-    <section id="about" class="min-h-screen bg-gray-50 flex items-center justify-center px-6 py-12">
+    <section id="about" class="min-h-screen bg-gray-800 flex items-center justify-center px-6 py-12">
   <div class="max-w-5xl mx-auto text-center">
     
     <div class="w-36 h-36 mx-auto mb-6 rounded-full overflow-hidden shadow-lg border-4 border-indigo-500">
@@ -13,7 +13,7 @@ const About = () => {
     </div>
 
     {/* <!-- Heading --> */}
-    <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800">
+    <h1 class="text-4xl md:text-5xl font-extrabold text-gray-200">
       👋 Hi, I'm <span class="text-indigo-600">Sazib Hossain</span>
     </h1>
 
