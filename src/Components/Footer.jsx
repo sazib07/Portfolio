@@ -2,7 +2,7 @@ import { FaFacebook, FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-gradient-to-b from-[#0F0F10] to-[#050507] text-gray-300 pt-16 pb-8 mt-20 border-t border-white/10">
+    <footer className="w-full from-[#0F0F10] to-[#050507] text-gray-300 pt-16 pb-8 mt-20 border-t border-white/10">
       
       {/* TOP SECTION */}
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
