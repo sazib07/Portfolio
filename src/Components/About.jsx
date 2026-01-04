@@ -18,7 +18,7 @@ const About = () => {
     </h1>
 
     {/* <!-- Sub heading --> */}
-    <p class="mt-3 text-lg text-gray-600 max-w-2xl mx-auto">
+    <p class="mt-3 text-lg text-gray-300 max-w-2xl mx-auto">
       A passionate MERN Stack Developer crafting intuitive, fast, and scalable web solutions.
       I love turning ideas into real products using clean & modern code.
     </p>
