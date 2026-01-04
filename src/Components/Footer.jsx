@@ -1,4 +1,10 @@
 import { FaFacebook, FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import About from "./About";
+import projects from "../data/projects";
+import Skills from "./Skills";
+import Contact from "./Contact";
+
+
 
 const Footer = () => {
   return (
@@ -25,7 +31,7 @@ const Footer = () => {
             <li className="hover:text-teal-300 transition"><a href="#about">About</a></li>
             <li className="hover:text-teal-300 transition"><a href="#projects">Projects</a></li>
             <li className="hover:text-teal-300 transition"><a href="#skills">Skills</a></li>
-            <li className="hover:text-teal-300 transition"><a href="#contact">Contact</a></li>
+            <li className="hover:text-teal-300 transition"><a href="#Contact">Contact</a></li>
           </ul>
         </div>
 
