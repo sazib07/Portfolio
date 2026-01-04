@@ -5,7 +5,7 @@ export default function Experience() {
   const experiences = [
    
      {
-      title: "Software Intern",
+      title: "MERN Stack learner",
       place: "Creative IT Institute",
       duration: "2025 - Present",
       description:
