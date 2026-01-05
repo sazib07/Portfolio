@@ -3,7 +3,8 @@ import ProjectCard from "./projectCard";
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-20 bg-[#11071F]">
+    <section id="projects" className="py-20 bg-[#160A27]
+">
       <div className="max-w-6xl mx-auto px-5">
         <h2 className="text-4xl font-bold text-center text-white mb-12">
           My Projects

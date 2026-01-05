@@ -7,7 +7,8 @@ const About = () => {
   return (
     <div>
       
-    <section id="about" class="min-h-screen bg-gray-900 flex items-center justify-center px-6 py-12">
+    <section id="about" class="min-h-screen 
+ flex items-center justify-center px-6 py-12">
   <div class="max-w-5xl mx-auto text-center">
     
     <div class="w-36 h-36 mx-auto mb-6 rounded-full overflow-hidden shadow-lg border-4 border-indigo-500">
@@ -27,17 +28,17 @@ const About = () => {
 
     {/* <!-- Highlight Boxes --> */}
     <div class="grid md:grid-cols-3 gap-6 mt-10">
-      <div class="bg-white shadow-md rounded-xl p-6 hover:scale-[1.03] transition">
+      <div class="bg-gray-300 shadow-md rounded-xl p-6 hover:scale-[1.03] transition">
         <h3 class="text-xl font-semibold text-indigo-600">🎨 Frontend</h3>
         <p class="text-gray-600 mt-2">React, Tailwind, Next.js, UI Design & Animations</p>
       </div>
 
-      <div class="bg-white shadow-md rounded-xl p-6 hover:scale-[1.03] transition">
+      <div class="bg-gray-300  shadow-md rounded-xl p-6 hover:scale-[1.03] transition">
         <h3 class="text-xl font-semibold text-indigo-600">🛠 Backend</h3>
         <p class="text-gray-600 mt-2">Node.js, Express.js, MongoDB, JWT Auth</p>
       </div>
 
-      <div class="bg-white shadow-md rounded-xl p-6 hover:scale-[1.03] transition">
+      <div class="bg-gray-300  shadow-md rounded-xl p-6 hover:scale-[1.03] transition">
         <h3 class="text-xl font-semibold text-indigo-600">🚀 Goal</h3>
         <p class="text-gray-600 mt-2">Build products that make an impact.</p>
       </div>
