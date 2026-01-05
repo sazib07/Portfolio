@@ -28,7 +28,7 @@ export default function Skills() {
     <Container>
 
     <div className="w-full mx-auto p-6">
-      <h2 className="text-3xl font-bold text-center mb-6">My Skills & Abilities</h2>
+      <h2 className="text-3xl text-center mb-6 font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-blue-500">My Skills & Abilities</h2>
 
       <div className="grid grid-cols-4 sm:grid-cols-6 gap-6 ">
         {skills.map((skill, index) => (
