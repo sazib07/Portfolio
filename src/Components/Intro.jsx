@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Container from './container'
+import { FaDownload } from "react-icons/fa6";
 
 
 const Intro = () => {
@@ -28,6 +29,29 @@ const Intro = () => {
         <br />
         Developer
       </h2>
+      <a
+              href="/resume.png"
+              download
+              className="inline-flex items-center gap-2 px-12 py-3 
+              bg-gradient-to-r from-blue-500 to-indigo-600 
+              text-purple-200 font-mono rounded-lg 
+              shadow-lg shadow-indigo-500/40
+              hover:scale-105 hover:shadow-indigo-500/70
+              transition-all duration-300"
+            >
+              <FaDownload/>
+              Resume
+            </a>
+      
+            {/* Tooltip */}
+            <span
+              className="absolute -top-12 left-1/2 -translate-x-1/2
+              whitespace-nowrap rounded-md bg-black px-3 py-1 text-sm
+              text-white opacity-0 group-hover:opacity-100
+              transition duration-300"
+            >
+              Download Resume
+            </span>
 
 </div>
 
