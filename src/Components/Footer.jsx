@@ -1,6 +1,5 @@
 import { FaFacebook, FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import About from "./About";
-import projects from "../data/projects";
 import Skills from "./Skills";
 import Contact from "./Contact";
 
