@@ -13,7 +13,7 @@ import Projects from './Components/Projects'
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#11071F] text-white">
+    <div className="min-h-screen bg-[#11071F] text-white px-4 md:px-10 lg:px-20">
       <Header />
       <Intro/>
       <Skills/>
