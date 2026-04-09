@@ -27,7 +27,7 @@ export default function Skills() {
   return (
     <Container>
 
-    <div className="w-full mx-auto p-3 sm:p-4 md:p-5">
+    <div className="w-full mt-10 mx-auto p-3 sm:p-4 md:p-5">
       <h2 className="text-lg sm:text-xl md:text-2xl text-center mb-4 font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-blue-500">
         My Skills & Abilities
       </h2>
