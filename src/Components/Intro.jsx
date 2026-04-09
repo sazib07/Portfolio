@@ -21,12 +21,12 @@ const Intro = () => {
     <div className="flex flex-row items-center gap-3 sm:gap-6 md:gap-10 lg:gap-16">
 
 {/* ✅ LEFT SIDE */}
-<div className="w-[55%] sm:w-[60%] md:w-[55%] lg:w-[50%]">
+<div className="w-[55%] sm:w-[60%] md:w-[65%] lg:w-[50%]">
    <h1 className="ml-[10px] text-[12px] sm:text-[22px] md:text-[28px] lg:text-[32px] mt-3 sm:mt-5 md:mt-6 bg-clip-text text-transparent bg-gradient-to-r from-teal-400 via-cyan-400 to-blue-400">
      Hey,This is Sazib Hossain.
    </h1>
 
-     <h2 className="ml-[10px] text-[28px] sm:text-[36px] md:text-[50px] lg:text-[64px] xl:text-[72px] text-teal-100 font-bold mt-2 sm:mt-3 md:mt-4 leading-tight">
+     <h2 className="ml-[10px] text-[20px] sm:text-[36px] md:text-[50px] lg:text-[64px] xl:text-[72px] text-teal-100 font-bold mt-2 sm:mt-3 md:mt-4 leading-tight">
         I'm{" "}
         <span className="relative animate-pulse duration-700 delay-700 inline-block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-yellow-400 animate-gradient-text">
           {words[currentWord]}
@@ -57,7 +57,7 @@ const Intro = () => {
 </div>
 
 {/* ✅ RIGHT SIDE */}
-<div className="w-[45%] sm:w-[40%] md:w-[55%] lg:w-[50%] p-2 sm:p-4 md:p-6 lg:p-10">
+<div className="w-[45%] sm:w-[40%] md:w-[45%] lg:w-[50%] p-2 sm:p-4 md:p-6 lg:p-10">
   <div className="relative ml-auto 
 w-40 h-48 
 sm:w-52 sm:h-60 
